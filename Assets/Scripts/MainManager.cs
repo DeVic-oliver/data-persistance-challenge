@@ -11,6 +11,8 @@ public class MainManager : MonoBehaviour
     public Rigidbody Ball;
 
     public Text ScoreText;
+    
+    //Fields for display the player info
     public Text CurrentPlayerName;
     public Text BestPlayerName;
 
@@ -21,6 +23,7 @@ public class MainManager : MonoBehaviour
 
     private bool m_GameOver = false;
 
+    //Static variables for holding the best player data
     private static int BestScore;
     private static string BestPlayer;
 

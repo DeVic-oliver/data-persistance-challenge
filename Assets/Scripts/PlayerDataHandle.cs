@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerDataHandle : MonoBehaviour
 {
+    //Static Class for save the current player data;
+    //Singleton pattern
     public static PlayerDataHandle Instance;
 
     public string PlayerName;
